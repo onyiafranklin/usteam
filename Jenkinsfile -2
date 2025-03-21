@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-//        stage('Code Checkout') {
-//            steps {
-//                git branch: 'main',
+       stage('Code Checkout') {
+           steps {
+               git branch: 'main',
 //                credentialsId: 'git-cred',
 //                url: 'https://github.com/CloudHight/usteam.git'
 //            }
